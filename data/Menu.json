@@ -1,0 +1,431 @@
+[
+  {
+    "id": 1,
+    "name": "Bunny Chow",
+    "image": "https://www.bellbirdbakedgoods.co.nz/wp-content/uploads/2023/06/20230521164417_IMG_4640.jpg",
+    "description": "A hollowed-out loaf of bread filled with spicy curry, originating from Durban.",
+    "price": 80.0,
+    "ingredients": ["Bread", "Chicken/Beef/Vegetable Curry", "Spices"],
+    "dietary_information": {
+      "is_vegan": false,
+      "is_gluten_free": false,
+      "allergens": ["gluten", "spices"]
+    },
+    "preparation_time": "20 mins",
+    "rating": 4.7,
+    "calories": 750
+  },
+  {
+    "id": 2,
+    "name": "Boerewors Roll",
+    "image": "https://www.unileverfoodsolutions.co.za/dam/global-ufs/mcos/SOUTH-AFRICA/calcmenu/recipes/ZA-recipes/red-meats-&-red-meat-dishes/boerewors-and-chakalaka-rolls/main-header.jpg",
+    "description": "A traditional South African sausage served in a fresh roll with tomato sauce and onions.",
+    "price": 60.0,
+    "ingredients": ["Boerewors", "Hot Dog Roll", "Tomato Sauce", "Onions"],
+    "dietary_information": {
+      "is_vegan": false,
+      "is_gluten_free": false,
+      "allergens": ["gluten", "meat"]
+    },
+    "preparation_time": "10 mins",
+    "rating": 4.5,
+    "calories": 600
+  },
+  {
+    "id": 3,
+    "name": "Bobotie",
+    "image": "https://foodieonboard.com/wp-content/uploads/2014/11/dsc_6572.jpg",
+    "description": "A sweet and savory baked dish made from spiced minced meat topped with an egg-based custard.",
+    "price": 120.0,
+    "ingredients": [
+      "Minced Meat",
+      "Eggs",
+      "Onions",
+      "Spices",
+      "Milk",
+      "Bay Leaves"
+    ],
+    "dietary_information": {
+      "is_vegan": false,
+      "is_gluten_free": true,
+      "allergens": ["eggs", "dairy"]
+    },
+    "preparation_time": "30 mins",
+    "rating": 4.8,
+    "calories": 680
+  },
+  {
+    "id": 4,
+    "name": "Malva Pudding",
+    "image": "https://img.sndimg.com/food/image/upload/q_92,fl_progressive,w_1200,c_scale/v1/img/recipes/11/85/45/syKctiUKTrihx3gz87fL_pudding-2.jpg",
+    "description": "A sweet and sticky dessert pudding made with apricot jam, baked and served hot with a creamy sauce.",
+    "price": 45.0,
+    "ingredients": ["Flour", "Sugar", "Eggs", "Apricot Jam", "Cream"],
+    "dietary_information": {
+      "is_vegan": false,
+      "is_gluten_free": false,
+      "allergens": ["gluten", "dairy", "eggs"]
+    },
+    "preparation_time": "25 mins",
+    "rating": 4.9,
+    "calories": 450
+  },
+  {
+    "id": 5,
+    "name": "Chakalaka",
+    "image": "https://cheflolaskitchen.com/wp-content/uploads/2022/11/chakalaka-south-africa-12.jpg",
+    "description": "A spicy and tangy vegetable relish made with tomatoes, onions, carrots, and beans.",
+    "price": 50.0,
+    "ingredients": ["Tomatoes", "Onions", "Carrots", "Beans", "Spices"],
+    "dietary_information": {
+      "is_vegan": true,
+      "is_gluten_free": true,
+      "allergens": []
+    },
+    "preparation_time": "15 mins",
+    "rating": 4.6,
+    "calories": 200
+  },
+  {
+    "id": 6,
+    "name": "Milk Tart",
+    "image": "https://assets.tmecosys.com/image/upload/t_web767x639/img/recipe/vimdb/261318.jpg",
+    "description": "A classic South African dessert tart with a creamy milk filling and a sprinkle of cinnamon.",
+    "price": 40.0,
+    "ingredients": ["Milk", "Flour", "Sugar", "Cinnamon"],
+    "dietary_information": {
+      "is_vegan": false,
+      "is_gluten_free": false,
+      "allergens": ["dairy", "gluten"]
+    },
+    "preparation_time": "20 mins",
+    "rating": 4.7,
+    "calories": 350
+  },
+  {
+    "id": 7,
+    "name": "Jollof Rice",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRA6Jjlr6QK1urtfiaHAbCUmnpovknHFtxzLg&s",
+    "description": "A vibrant one-pot dish with rice, tomatoes, onions, and peppers, originating from West Africa.",
+    "price": 90.0,
+    "ingredients": ["Rice", "Tomatoes", "Onions", "Peppers", "Spices"],
+    "dietary_information": {
+      "is_vegan": true,
+      "is_gluten_free": true,
+      "allergens": []
+    },
+    "preparation_time": "25 mins",
+    "rating": 4.8,
+    "calories": 400
+  },
+  {
+    "id": 8,
+    "name": "Piri Piri Chicken",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCHfR9GDjoMYy2kg940gakrD8snQoFwfn4LA&s",
+    "description": "Grilled chicken marinated in a spicy, tangy Piri Piri sauce, popular in Mozambique.",
+    "price": 150.0,
+    "ingredients": [
+      "Chicken",
+      "Piri Piri Sauce",
+      "Garlic",
+      "Lemon Juice",
+      "Chili"
+    ],
+    "dietary_information": {
+      "is_vegan": false,
+      "is_gluten_free": true,
+      "allergens": []
+    },
+    "preparation_time": "35 mins",
+    "rating": 4.7,
+    "calories": 520
+  },
+  {
+    "id": 9,
+    "name": "Injera",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMp5u-2Drx97iQS05FH0rYqIoVKnW8X9g0Ng&s",
+    "description": "A spongy flatbread made from teff flour, traditionally served with Ethiopian stews.",
+    "price": 50.0,
+    "ingredients": ["Teff Flour", "Water", "Yeast"],
+    "dietary_information": {
+      "is_vegan": true,
+      "is_gluten_free": true,
+      "allergens": []
+    },
+    "preparation_time": "15 mins",
+    "rating": 4.6,
+    "calories": 120
+  },
+  {
+    "id": 10,
+    "name": "Tagine",
+    "image": "https://www.allrecipes.com/thmb/ziZtYw1nL0xL5r8ynvEDNv8Xqqg=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/105044-lamb-tagine-DDMFS-4x3-1d5413b564a34d4b81099e4fd3c20b52.jpg",
+    "description": "A slow-cooked Moroccan stew made with meat, vegetables, and aromatic spices.",
+    "price": 130.0,
+    "ingredients": ["Lamb/Chicken", "Onions", "Carrots", "Spices", "Olives"],
+    "dietary_information": {
+      "is_vegan": false,
+      "is_gluten_free": true,
+      "allergens": []
+    },
+    "preparation_time": "40 mins",
+    "rating": 4.9,
+    "calories": 620
+  },
+  {
+    "id": 11,
+    "name": "Pap en Vleis",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ23EDUSYDzpR2u1a77FDylcbkqF06e-Om5Fg&s",
+    "description": "A traditional South African dish consisting of maize porridge served with meat and a tomato-based sauce.",
+    "price": 75.0,
+    "ingredients": ["Maize Meal", "Beef/Lamb", "Tomatoes", "Onions", "Spices"],
+    "dietary_information": {
+      "is_vegan": false,
+      "is_gluten_free": true,
+      "allergens": []
+    },
+    "preparation_time": "30 mins",
+    "rating": 4.7,
+    "calories": 500
+  },
+  {
+    "id": 12,
+    "name": "Kelewele",
+    "image": "https://i0.wp.com/travelandmunchies.com/wp-content/uploads/2022/11/IMG_4440-1.jpg?resize=600%2C400&ssl=1",
+    "description": "Spicy fried plantain bites from Ghana, seasoned with ginger, garlic, and pepper.",
+    "price": 40.0,
+    "ingredients": ["Plantains", "Ginger", "Garlic", "Pepper"],
+    "dietary_information": {
+      "is_vegan": true,
+      "is_gluten_free": true,
+      "allergens": []
+    },
+    "preparation_time": "15 mins",
+    "rating": 4.5,
+    "calories": 350
+  },
+  {
+    "id": 13,
+    "name": "Braaied Snoek",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-euTbdMTbFVvcZmizEea1GSdpHbnfBJVkfg&s",
+    "description": "Grilled snoek fish, a delicacy in South Africa, usually served with apricot jam glaze.",
+    "price": 180.0,
+    "ingredients": ["Snoek Fish", "Apricot Jam", "Garlic", "Lemon"],
+    "dietary_information": {
+      "is_vegan": false,
+      "is_gluten_free": true,
+      "allergens": ["fish"]
+    },
+    "preparation_time": "25 mins",
+    "rating": 4.9,
+    "calories": 340
+  },
+  {
+    "id": 14,
+    "name": "Nigerian Suya",
+    "image": "https://images.food52.com/9ueAv-2KlAgc3VXckFNaNWeVzX8=/1930x1286/cc4dec59-c417-4bb8-aa37-74a0080c2a62--4796689247_8da1af91d1.jpg",
+    "description": "Spicy grilled meat skewers coated in a blend of ground peanuts, spices, and chili powder.",
+    "price": 70.0,
+    "ingredients": ["Beef", "Peanuts", "Chili Powder", "Spices"],
+    "dietary_information": {
+      "is_vegan": false,
+      "is_gluten_free": true,
+      "allergens": ["peanuts"]
+    },
+    "preparation_time": "20 mins",
+    "rating": 4.8,
+    "calories": 450
+  },
+  {
+    "id": 15,
+    "name": "Ugali",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjAwc7cKl3a3Vc74_rX7BuEw12GPpQN4Lb7w&s",
+    "description": "A staple East African porridge made from maize flour, often served with stews or vegetables.",
+    "price": 45.0,
+    "ingredients": ["Maize Flour", "Water"],
+    "dietary_information": {
+      "is_vegan": true,
+      "is_gluten_free": true,
+      "allergens": []
+    },
+    "preparation_time": "10 mins",
+    "rating": 4.6,
+    "calories": 250
+  },
+  {
+    "id": 16,
+    "name": "Couscous Royale",
+    "image": "https://www.saveur.com/uploads/2019/02/08/FZ76GWAUBFC62GDJBRKTV647TQ.jpg?auto=webp&auto=webp&optimize=high&quality=70&width=1440",
+    "description": "A North African dish with couscous, grilled meats, and vegetables cooked with aromatic spices.",
+    "price": 140.0,
+    "ingredients": ["Couscous", "Lamb/Chicken", "Vegetables", "Spices"],
+    "dietary_information": {
+      "is_vegan": false,
+      "is_gluten_free": false,
+      "allergens": ["gluten"]
+    },
+    "preparation_time": "35 mins",
+    "rating": 4.7,
+    "calories": 600
+  },
+  {
+    "id": 17,
+    "name": "Vetkoek",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRywHK_UUcknBkevehp_pZ4fmem8s6UybdGMg&s",
+    "description": "A fried dough bread stuffed with savory mince or served with jam and cheese.",
+    "price": 35.0,
+    "ingredients": ["Flour", "Yeast", "Minced Meat", "Oil"],
+    "dietary_information": {
+      "is_vegan": false,
+      "is_gluten_free": false,
+      "allergens": ["gluten", "oil"]
+    },
+    "preparation_time": "15 mins",
+    "rating": 4.7,
+    "calories": 300
+  },
+  {
+    "id": 18,
+    "name": "Samp and Beans",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTz9yXu73c0Qo37gBzbLqca67jfeAHEHqQ1pQ&s",
+    "description": "A traditional dish made with softened white maize and sugar beans, often cooked with butter.",
+    "price": 50.0,
+    "ingredients": ["Samp", "Sugar Beans", "Butter", "Spices"],
+    "dietary_information": {
+      "is_vegan": true,
+      "is_gluten_free": true,
+      "allergens": []
+    },
+    "preparation_time": "45 mins",
+    "rating": 4.8,
+    "calories": 450
+  },
+  {
+    "id": 19,
+    "name": "Biltong",
+    "image": "https://optimumranch.co.za/wp-content/uploads/2022/04/biltong-sticks.jpg",
+    "description": "Dried, cured meat, typically beef or game, seasoned and air-dried in the South African tradition.",
+    "price": 120.0,
+    "ingredients": ["Beef/Game Meat", "Coriander", "Vinegar", "Salt"],
+    "dietary_information": {
+      "is_vegan": false,
+      "is_gluten_free": true,
+      "allergens": []
+    },
+    "preparation_time": "N/A",
+    "rating": 4.9,
+    "calories": 300
+  },
+  {
+    "id": 20,
+    "name": "Potjiekos",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQprOTLlaRAAU8btutzvF23gnVMVqKgclKQoA&s",
+    "description": "A traditional slow-cooked stew made with meat and vegetables, cooked in a cast-iron pot over a fire.",
+    "price": 160.0,
+    "ingredients": ["Beef/Lamb", "Potatoes", "Carrots", "Onions", "Spices"],
+    "dietary_information": {
+      "is_vegan": false,
+      "is_gluten_free": true,
+      "allergens": []
+    },
+    "preparation_time": "2 hours",
+    "rating": 4.8,
+    "calories": 550
+  },
+  {
+    "id": 21,
+    "name": "Koeksisters",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjL_7kY44QsnC5jii3KioSgudbs1UZ-YoSzw&s",
+    "description": "A sweet, braided doughnut soaked in syrup, with a crisp exterior and soft, sticky center.",
+    "price": 25.0,
+    "ingredients": ["Flour", "Sugar", "Syrup", "Spices"],
+    "dietary_information": {
+      "is_vegan": false,
+      "is_gluten_free": false,
+      "allergens": ["gluten", "sugar"]
+    },
+    "preparation_time": "30 mins",
+    "rating": 4.7,
+    "calories": 400
+  },
+  {
+    "id": 22,
+    "name": "Amadumbe",
+    "image": "https://assets.unileversolutions.com/recipes-v2/163167.jpg",
+    "description": "A traditional Zulu dish made from boiled or roasted taro root, similar to sweet potatoes, often served as a side dish.",
+    "price": 30.0,
+    "ingredients": ["Taro Root", "Butter", "Salt"],
+    "dietary_information": {
+      "is_vegan": true,
+      "is_gluten_free": true,
+      "allergens": []
+    },
+    "preparation_time": "20 mins",
+    "rating": 4.6,
+    "calories": 200
+  },
+  {
+    "id": 23,
+    "name": "Ujeqe (Steamed Bread)",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCyjhNv7HXy-Kl4EQt9Cu7M53JWVD2EKYWnw&s",
+    "description": "Traditional Zulu steamed bread with a soft and fluffy texture, perfect for serving with stews or curries.",
+    "price": 25.0,
+    "ingredients": ["Flour", "Yeast", "Salt", "Water"],
+    "dietary_information": {
+      "is_vegan": true,
+      "is_gluten_free": false,
+      "allergens": ["gluten"]
+    },
+    "preparation_time": "45 mins",
+    "rating": 4.8,
+    "calories": 350
+  },
+  {
+    "id": 24,
+    "name": "Umqombothi",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTe40XrdFJfmB42ysYakSm1yOg1ntETOL1txw&s",
+    "description": "A traditional Zulu beer made from fermented maize, sorghum, yeast, and water, enjoyed at ceremonies and gatherings.",
+    "price": 40.0,
+    "ingredients": ["Maize", "Sorghum", "Yeast", "Water"],
+    "dietary_information": {
+      "is_vegan": true,
+      "is_gluten_free": false,
+      "allergens": ["gluten"]
+    },
+    "preparation_time": "48 hours",
+    "rating": 4.5,
+    "calories": 150
+  },
+  {
+    "id": 25,
+    "name": "Motoho",
+    "image": "https://loispiration.com/wp-content/uploads/2020/02/motoho.jpg",
+    "description": "A fermented sorghum porridge enjoyed as a refreshing and nutritious meal or drink among the Sotho people.",
+    "price": 20.0,
+    "ingredients": ["Sorghum", "Water", "Sugar"],
+    "dietary_information": {
+      "is_vegan": true,
+      "is_gluten_free": true,
+      "allergens": []
+    },
+    "preparation_time": "24 hours",
+    "rating": 4.7,
+    "calories": 180
+  },
+  {
+    "id": 26,
+    "name": "Moroho (Wild Spinach)",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkMvYcfsC3qlVes3uEG6hU2U9wFT3NCLKwvg&s",
+    "description": "A popular Sotho dish made from wild spinach, sautéed with onions, tomatoes, and spices, usually served with maize meal.",
+    "price": 35.0,
+    "ingredients": ["Wild Spinach", "Onions", "Tomatoes", "Spices"],
+    "dietary_information": {
+      "is_vegan": true,
+      "is_gluten_free": true,
+      "allergens": []
+    },
+    "preparation_time": "15 mins",
+    "rating": 4.8,
+    "calories": 120
+  }
+]
