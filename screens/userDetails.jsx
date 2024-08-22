@@ -4,7 +4,7 @@ import {
   StyleSheet,
   TextInput,
   TouchableOpacity,
-  Alert
+  Alert,
 } from "react-native";
 import React, { useState, useContext } from "react";
 import UserInfoContext from "../context/UserInfoContext";

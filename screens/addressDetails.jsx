@@ -1,6 +1,13 @@
-import { View, Text, StyleSheet, TextInput, TouchableOpacity, Alert } from 'react-native'
-import React, {useState, useContext} from 'react'
-import UserInfoContext from '../context/UserInfoContext';
+import {
+  View,
+  Text,
+  StyleSheet,
+  TextInput,
+  TouchableOpacity,
+  Alert,
+} from "react-native";
+import React, { useState, useContext } from "react";
+import UserInfoContext from "../context/UserInfoContext";
 
 const AddressDetails = ({ navigation }) => {
   const { userInfo, setUserInfo } = useContext(UserInfoContext);
@@ -26,7 +33,7 @@ const AddressDetails = ({ navigation }) => {
       return;
     }
 
-    setUserInfo(prevInfo => ({
+    setUserInfo((prevInfo) => ({
       ...prevInfo,
       street,
       city,
@@ -63,49 +70,48 @@ const AddressDetails = ({ navigation }) => {
         value={postalCode}
         onChangeText={setPostalCode}
         keyboardType="numeric"
-        maxLength={4} 
+        maxLength={4}
       />
       <TouchableOpacity onPress={handleNext} style={styles.nextButton}>
         <Text style={styles.buttonText}>Next</Text>
       </TouchableOpacity>
     </View>
-  )
-}
+  );
+};
 
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    justifyContent: 'center',
+    justifyContent: "center",
     padding: 16,
-    backgroundColor: '#f8f9fa',
+    backgroundColor: "#f8f9fa",
   },
   title: {
     fontSize: 24,
-    fontWeight: 'bold',
+    fontWeight: "bold",
     marginBottom: 24,
-    textAlign: 'center',
-    color: '#333',
+    textAlign: "center",
+    color: "#333",
   },
   input: {
     height: 50,
-    borderColor: '#ccc',
+    borderColor: "#ccc",
     borderWidth: 1,
     borderRadius: 8,
     paddingHorizontal: 16,
     marginBottom: 16,
-    backgroundColor: '#fff',
+    backgroundColor: "#fff",
   },
   nextButton: {
-    backgroundColor: '#ca8a04',
+    backgroundColor: "#ca8a04",
     padding: 15,
     borderRadius: 8,
-    alignItems: 'center',
+    alignItems: "center",
   },
   buttonText: {
-    color: '#fff',
-    fontWeight: 'bold',
+    color: "#fff",
+    fontWeight: "bold",
   },
 });
 
-
-export default AddressDetails
+export default AddressDetails;

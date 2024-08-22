@@ -17,7 +17,6 @@ const Profile = () => {
         <Text style={styles.info}>{userInfo.email}</Text>
         <Text style={styles.label}>Phone Number:</Text>
         <Text style={styles.info}>{userInfo.phoneNumber}</Text>
-       
       </View>
 
       <View style={styles.section}>

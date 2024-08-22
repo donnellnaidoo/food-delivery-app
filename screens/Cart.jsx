@@ -33,9 +33,9 @@ const Cart = () => {
   };
 
   const handleCheckout = () => {
-    setModalVisible(!modalVisible)
-    setCartItems([])
-  }
+    setModalVisible(!modalVisible);
+    setCartItems([]);
+  };
 
   return (
     <>
@@ -95,7 +95,6 @@ const Cart = () => {
               <Text style={styles.modalText}>Checkout</Text>
 
               <View style={styles.summaryContainer}>
-
                 <Text style={styles.summaryTotal}>
                   Total: R {total.toFixed(2)}
                 </Text>
@@ -107,7 +106,6 @@ const Cart = () => {
               >
                 <Text style={styles.textStyle}>Confirm Payment</Text>
               </TouchableOpacity>
-
             </View>
           </View>
         </Modal>

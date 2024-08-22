@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import {  StyleSheet } from "react-native";
+import { StyleSheet } from "react-native";
 import { createStackNavigator } from "@react-navigation/stack";
 import userDetails from "./userDetails";
 import addressDetails from "./addressDetails";
@@ -14,10 +14,26 @@ const SignIn = ({ onSignInComplete, navigation }) => {
 
   return (
     <Stack.Navigator>
-      <Stack.Screen options={{headerShown: false}} name="formOne" component={userDetails}/>
-      <Stack.Screen options={{headerShown: false}} name="formTwo" component={addressDetails}/>
-      <Stack.Screen options={{headerShown: false}} name="formThree" component={paymentDetails}/>
-      <Stack.Screen options={{headerShown: false}} name="HomeTabs" component={HomeTabs}/>
+      <Stack.Screen
+        options={{ headerShown: false }}
+        name="formOne"
+        component={userDetails}
+      />
+      <Stack.Screen
+        options={{ headerShown: false }}
+        name="formTwo"
+        component={addressDetails}
+      />
+      <Stack.Screen
+        options={{ headerShown: false }}
+        name="formThree"
+        component={paymentDetails}
+      />
+      <Stack.Screen
+        options={{ headerShown: false }}
+        name="HomeTabs"
+        component={HomeTabs}
+      />
     </Stack.Navigator>
   );
 };
